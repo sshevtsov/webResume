@@ -5,10 +5,26 @@ package ru.javaresume.webapp.model;
  */
 public class Link {
 
-    String name;
-    String url;
+    private String name;
+    private String url;
 
     public Link() {
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
     }
 
     public Link(String name, String url) {
