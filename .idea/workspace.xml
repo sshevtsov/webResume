@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b23c8f62-7d58-47a9-93d1-0992f14a0f9d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/ContactType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/SectionType.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Main.java" afterPath="$PROJECT_DIR$/src/main/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/Contact.java" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/Contact.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/ContactType.java" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/ContactType.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/Link.java" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/Link.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/ListSection.java" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/ListSection.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/Organization.java" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/Organization.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/OrganizationSection.java" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/OrganizationSection.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/Position.java" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/Position.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/Resume.java" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/Resume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/Section.java" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/Section.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/TextSection.java" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/TextSection.java" />
     </list>
     <ignored path="webResume.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,16 +59,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrganizationSection.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/model/OrganizationSection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ListSection.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/model/ListSection.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -95,12 +79,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContactType.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ContactType.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/model/ContactType.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+              <folding>
+                <element signature="e#328#329#0" expanded="true" />
+                <element signature="e#362#363#0" expanded="true" />
+                <element signature="e#422#423#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SectionType.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/model/SectionType.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
-              <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-              <folding />
+              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+              <folding>
+                <element signature="e#330#331#0" expanded="true" />
+                <element signature="e#364#365#0" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
+                <element signature="e#424#425#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -177,6 +180,7 @@
         <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/model/Section.java" />
         <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/model/Resume.java" />
         <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/model/ContactType.java" />
+        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/model/SectionType.java" />
       </list>
     </option>
   </component>
@@ -302,6 +306,8 @@
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -767,7 +773,7 @@
       <option name="presentableId" value="Default" />
       <updated>1468423510187</updated>
       <workItem from="1468423511600" duration="4255000" />
-      <workItem from="1468931060606" duration="5150000" />
+      <workItem from="1468931060606" duration="5911000" />
     </task>
     <task id="LOCAL-00001" summary="init model">
       <created>1468423714518</created>
@@ -790,11 +796,18 @@
       <option name="project" value="LOCAL" />
       <updated>1468941461775</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add enum">
+      <created>1469271790368</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1469271790368</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9405000" />
+    <option name="totallyTimeSpent" value="10166000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -850,7 +863,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init model" />
     <MESSAGE value="Create Resume model" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Resume model" />
+    <MESSAGE value="Add enum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add enum" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -869,7 +883,7 @@
         <state relative-caret-position="285">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -971,8 +985,8 @@
         <state relative-caret-position="152">
           <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
           <folding>
-            <element signature="e#183#184#0" expanded="true" />
-            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="false" />
+            <element signature="e#226#227#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -990,7 +1004,7 @@
         <state relative-caret-position="285">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1138,9 +1152,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/model/ContactType.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding>
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/model/SectionType.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-          <folding />
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
