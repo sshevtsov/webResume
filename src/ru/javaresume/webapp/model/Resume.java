@@ -12,6 +12,11 @@ public class Resume {
     private List<Contact> contacts;
     private List<Section> sections;
 
+    public Resume(String fullName, String about) {
+        this.fullName = fullName;
+        this.about = about;
+    }
+
     public String getFullName() {
         return fullName;
     }

@@ -7,11 +7,8 @@ public class TextSection extends Section{
 
     private String content;
 
-    public String getContent() {
-        return content;
-    }
-
-    public void setContent(String content) {
+    public TextSection(String content) {
+        super("TextSection");
         this.content = content;
     }
 }

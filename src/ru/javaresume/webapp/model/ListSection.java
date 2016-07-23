@@ -5,15 +5,12 @@ import java.util.List;
 /**
  * Created by deadRabbit on 17.07.2016.
  */
-public class ListSection extends Section{
+public class ListSection extends Section {
 
     private List<String> lines;
 
-    public List<String> getLines() {
-        return lines;
-    }
-
-    public void setLines(List<String> lines) {
+    public ListSection(List<String> lines) {
+        super("ListSection");
         this.lines = lines;
     }
 }
