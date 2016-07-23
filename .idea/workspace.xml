@@ -4,13 +4,7 @@
     <list default="true" id="b23c8f62-7d58-47a9-93d1-0992f14a0f9d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Main.java" afterPath="$PROJECT_DIR$/src/main/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/Contact.java" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/Contact.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/Link.java" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/Link.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/ListSection.java" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/ListSection.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/OrganizationSection.java" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/OrganizationSection.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/Resume.java" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/Resume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/Section.java" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/Section.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/TextSection.java" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/TextSection.java" />
     </list>
     <ignored path="webResume.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,8 +52,8 @@
       <file leaf-file-name="ListSection.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/model/ListSection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="228">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#317#318#0" expanded="true" />
@@ -789,7 +783,7 @@
       <updated>1468423510187</updated>
       <workItem from="1468423511600" duration="4255000" />
       <workItem from="1468931060606" duration="8722000" />
-      <workItem from="1469276451889" duration="1173000" />
+      <workItem from="1469276451889" duration="1214000" />
     </task>
     <task id="LOCAL-00001" summary="init model">
       <created>1468423714518</created>
@@ -826,11 +820,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469272567545</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Create resume instance">
+      <created>1469277672648</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1469277672648</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14150000" />
+    <option name="totallyTimeSpent" value="14191000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -888,7 +889,8 @@
     <MESSAGE value="Create Resume model" />
     <MESSAGE value="Add enum" />
     <MESSAGE value="Add Contact and Section enums" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Contact and Section enums" />
+    <MESSAGE value="Create resume instance" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create resume instance" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1028,6 +1030,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1205,6 +1208,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1303,8 +1307,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/model/ListSection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="228">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#317#318#0" expanded="true" />
