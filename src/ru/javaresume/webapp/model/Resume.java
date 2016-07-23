@@ -1,5 +1,6 @@
 package ru.javaresume.webapp.model;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -9,43 +10,29 @@ public class Resume {
 
     private String fullName;
     private String about;
-    private List<Contact> contacts;
-    private List<Section> sections;
+    private List<Contact> contacts = new ArrayList<>();
+    private List<Section> sections = new ArrayList<>();
 
     public Resume(String fullName, String about) {
         this.fullName = fullName;
         this.about = about;
     }
 
-    public String getFullName() {
-        return fullName;
+    public void addContact(ContactType type, String value) {
+        contacts.add(new Contact(type, value));
     }
 
-    public void setFullName(String fullName) {
-        this.fullName = fullName;
+    public void addSection(Section section) {
+        sections.add(section);
     }
 
-    public String getAbout() {
-        return about;
-    }
-
-    public void setAbout(String about) {
-        this.about = about;
-    }
-
-    public List<Contact> getContacts() {
-        return contacts;
-    }
-
-    public void setContacts(List<Contact> contacts) {
-        this.contacts = contacts;
-    }
-
-    public List<Section> getSections() {
-        return sections;
-    }
-
-    public void setSections(List<Section> sections) {
-        this.sections = sections;
+    @Override
+    public String toString() {
+        return "Resume{" +
+                "fullName='" + fullName + '\'' +
+                ", about='" + about + '\n' +
+                "contacts=" + contacts + '\n' +
+                "sections=" + sections +
+                '}';
     }
 }

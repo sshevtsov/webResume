@@ -7,8 +7,13 @@ public class TextSection extends Section{
 
     private String content;
 
-    public TextSection(String content) {
-        super("TextSection");
+    public TextSection(SectionType type, String content) {
+        super(type);
         this.content = content;
+    }
+
+    @Override
+    public String toString() {
+        return "TextSection(" + content + ")";
     }
 }

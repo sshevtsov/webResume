@@ -5,9 +5,14 @@ package ru.javaresume.webapp.model;
  */
 public abstract class Section {
 
-    private String type;
+    private final SectionType type;
 
-    protected Section(String type) {
+    protected Section(SectionType type) {
         this.type = type;
+    }
+
+    @Override
+    public String toString() {
+        return "Section(" + type + ")";
     }
 }

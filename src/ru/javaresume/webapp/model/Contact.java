@@ -5,7 +5,16 @@ package ru.javaresume.webapp.model;
  */
 public class Contact {
 
-    private String type;
+    private final ContactType type;
     private String value;
 
+    public Contact(ContactType type, String value) {
+        this.type = type;
+        this.value = value;
+    }
+
+    @Override
+    public String toString() {
+        return "(" + type + " - " + value + ")";
+    }
 }
