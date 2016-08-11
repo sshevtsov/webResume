@@ -2,6 +2,8 @@ package main;
 
 import ru.javaresume.webapp.model.*;
 
+import java.time.Month;
+
 /**
  * Created by deadRabbit on 12.07.2016.
  */
@@ -15,8 +17,14 @@ public class Main {
         r1.addSection(new TextSection(SectionType.OBJECTIVE, "Objective"));
         r1.addSection(new ListSection(SectionType.QUALIFICATIONS, "Achivement1", "Achivement2"));
         r1.addSection(new ListSection(SectionType.QUALIFICATIONS, "Java", "SQL"));
+        r1.addSection(
+                new OrganizationSection(SectionType.EXPERIENCE,
+                        new Organization("Organization1", null,
+                                new Position(2005, Month.JANUARY, "position1", "content1"),
+                                new Position(2001, Month.MARCH, 2005, Month.APRIL, "position2", "content2"))));
 
-        System.out.println(r1);
+
+        System.out.println(r1.toString());
     }
 
 }
