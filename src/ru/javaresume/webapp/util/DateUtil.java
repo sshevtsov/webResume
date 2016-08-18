@@ -1,4 +1,4 @@
-package ru.javaresume.webapp.model;
+package ru.javaresume.webapp.util;
 
 import java.time.LocalDate;
 import java.time.Month;

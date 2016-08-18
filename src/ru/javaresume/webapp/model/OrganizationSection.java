@@ -10,11 +10,10 @@ public class OrganizationSection extends Section{
 
     private final List<Organization> organizations;
 
-    public OrganizationSection(SectionType type, Organization ... organizations) {
-        this(type, Arrays.asList(organizations));
+    public OrganizationSection(Organization ... organizations) {
+        this( Arrays.asList(organizations));
     }
-    public OrganizationSection(SectionType type,List<Organization> organizations) {
-        super(type);
+    public OrganizationSection(List<Organization> organizations) {
         this.organizations = organizations;
     }
 

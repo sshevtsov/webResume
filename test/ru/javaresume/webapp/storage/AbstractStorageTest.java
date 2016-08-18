@@ -105,5 +105,4 @@ public class AbstractStorageTest {
 
     private void assertSize(int size) {
         assertEquals(size, storage.size());
-    }
-}
+    }}

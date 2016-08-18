@@ -8,7 +8,7 @@ import ru.javaresume.webapp.model.Resume;
 public class ArrayStorage extends AbstractArrayStorage {
 
     @Override
-    protected void shiftDeleted(String uuid, int idx) {
+    protected void shiftDeleted(int idx) {
         array[idx] = array[size - 1];
     }
 
@@ -17,7 +17,8 @@ public class ArrayStorage extends AbstractArrayStorage {
         array[size] = r;
     }
 
-    protected int getIndex(String uuid) {
+    @Override
+    protected Integer getContext(String uuid) {
         for (int i = 0; i < size; i++) {
             if (array[i].getUuid().equals(uuid)) {
                 return i;

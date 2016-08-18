@@ -11,12 +11,11 @@ public class ListSection extends Section {
 
     private List<String> lines = new ArrayList<>();
 
-    public ListSection(SectionType type, String... lines) {
-        this(type, Arrays.asList(lines));
+    public ListSection( String... lines) {
+        this(Arrays.asList(lines));
     }
 
-    public ListSection(SectionType type, List<String> lines) {
-        super(type);
+    public ListSection(List<String> lines) {
         this.lines = lines;
     }
 
