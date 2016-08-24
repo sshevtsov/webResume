@@ -15,9 +15,9 @@ import static java.util.Objects.requireNonNull;
 import static org.junit.Assert.assertEquals;
 
 /**
- * Created by deadRabbit on 12.08.2016.
+ * Created by deadRabbit on 24.08.2016.
  */
-public class AbstractStorageTest {
+public abstract class AbstractStorageTest {
 
     private final Storage storage;
 
@@ -105,4 +105,5 @@ public class AbstractStorageTest {
 
     private void assertSize(int size) {
         assertEquals(size, storage.size());
-    }}
+    }
+}

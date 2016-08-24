@@ -66,8 +66,7 @@ public class Organization implements Serializable {
     }
 
     /**
-     * GKislin
-     * 01.04.2016
+     * Created by deadRabbit on 17.07.2016.
      */
     @XmlAccessorType(XmlAccessType.FIELD)
     public static class Position implements Serializable {

@@ -1,8 +1,7 @@
 package ru.javaresume.webapp;
 
-import ru.javaresume.webapp.model.*;
-
-import java.time.Month;
+import ru.javaresume.webapp.model.ContactType;
+import ru.javaresume.webapp.model.Resume;
 
 /**
  * Created by deadRabbit on 16.08.2016.
@@ -23,10 +22,8 @@ public class ResumeTestData {
         R1.addContact(ContactType.PHONE, "11111");
         R2.addContact(ContactType.SKYPE, "skype2");
         R2.addContact(ContactType.PHONE, "22222");
-        R1.addContact(ContactType.MAIL, "email1@mail.ru");
-        R1.addContact(ContactType.PHONE, "111111");
 
-
+/*
         R1.addSection(SectionType.OBJECTIVE, new TextSection("Objective1"));
         R1.addSection(SectionType.ACHIEVEMENT, new ListSection("Achivment11", "Achivment12", "Achivment13"));
         R1.addSection(SectionType.QUALIFICATIONS, new ListSection("Java", "SQL", "JavaScript"));
@@ -41,6 +38,8 @@ public class ResumeTestData {
                                 new Organization.Position(1996, Month.JANUARY, 2000, Month.DECEMBER, "aspirant", null),
                                 new Organization.Position(2001, Month.MARCH, 2005, Month.JANUARY, "student", "IT facultet")),
                         new Organization("Organization12", "http://Organization12.ru")));
+*/
+
         UUID1 = R1.getUuid();
     }
 }

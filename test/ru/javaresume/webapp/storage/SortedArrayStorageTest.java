@@ -1,11 +1,10 @@
 package ru.javaresume.webapp.storage;
 
 /**
- * Created by deadRabbit on 16.08.2016.
+ * Created by deadRabbit on 24.08.2016.
  */
-public class SortedArrayStorageTest  extends AbstractStorageTest {
+public class SortedArrayStorageTest extends AbstractStorageTest {
     public SortedArrayStorageTest() {
         super(new SortedArrayStorage());
     }
-
 }

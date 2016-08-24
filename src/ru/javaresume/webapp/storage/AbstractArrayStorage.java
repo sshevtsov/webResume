@@ -66,5 +66,4 @@ abstract public class AbstractArrayStorage extends AbstractStorage<Integer> {
     public int getSize() {
         return size;
     }
-
 }

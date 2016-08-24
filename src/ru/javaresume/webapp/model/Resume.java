@@ -117,4 +117,5 @@ public class Resume implements Comparable, Serializable {
         int cmp = fullName.compareTo(other.fullName);
         return cmp == 0 ? uuid.compareTo(other.uuid) : cmp;
     }
+
 }

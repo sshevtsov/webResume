@@ -14,6 +14,7 @@ import static java.util.Objects.requireNonNull;
  */
 abstract public class AbstractStorage<C> implements Storage{
 
+    //    private final static Logger LOG = Logger.getLogger(AbstractStorage.class.getName());
     protected final Logger log = Logger.getLogger(getClass().getName());
 
     protected abstract C getContext(String uuid);

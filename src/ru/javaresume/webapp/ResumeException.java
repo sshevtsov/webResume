@@ -7,13 +7,21 @@ public class ResumeException extends RuntimeException{
 
     private final String uuid;
 
-    public ResumeException(String uuid, String s) {
-        super(s);
+    public ResumeException(Throwable cause) {
+        this(null, null, cause);
+    }
+
+    public ResumeException(String uuid, String message) {
+        super(message);
         this.uuid = uuid;
     }
 
-    public ResumeException(String uuid, String s, Throwable throwable) {
-        super(s, throwable);
+    public ResumeException(String uuid, String message, Throwable cause) {
+        super(message, cause);
         this.uuid = uuid;
+    }
+
+    public String getUuid() {
+        return uuid;
     }
 }

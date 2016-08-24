@@ -9,7 +9,7 @@ import ru.javaresume.webapp.storage.path.ObjectStreamPathStorageTest;
 import ru.javaresume.webapp.storage.path.XmlPathStorageTest;
 
 /**
- * Created by deadRabbit on 22.08.2016.
+ * Created by deadRabbit on 24.08.2016.
  */
 @RunWith(Suite.class)
 @Suite.SuiteClasses(

@@ -1,39 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="webResume:Web" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b23c8f62-7d58-47a9-93d1-0992f14a0f9d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/Config.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/ResumeNotFoundException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/storage/AbstractIOStorage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/storage/FileStorage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/storage/MapUuidStorage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/storage/PathStorage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/storage/serializer/DataStreamSerializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/storage/serializer/JsonStreamSerializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/storage/serializer/ObjectStreamSerializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/storage/serializer/StreamSerializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/storage/serializer/XmlStreamSerializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/util/JsonParser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/util/JsonSectionAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/util/LocalDateAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/util/XmlParser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/AllStorageTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/MapUuidStorageTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/file/DataStreamFileStorageTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/file/XmlFileStorageTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/path/DataStreamPathStorageTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/path/JsonPathStorageTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/path/ObjectStreamPathStorageTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/path/XmlPathStorageTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/webResume_Web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/webResume_Web_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/postgresDb.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/logging.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/sql/ConnectionFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/sql/SqlExecutor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/sql/SqlHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/sql/SqlTransaction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/storage/SqlStorage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/util/ExceptionUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/util/HtmlUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/web/ResumeServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/webapp.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/list.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Main.java" afterPath="$PROJECT_DIR$/src/main/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/javaresume/webapp/ResumeException.java" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/ResumeException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/javaresume/webapp/ResumeStorageException.java" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/ResumeStorageException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/ContactType.java" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/ContactType.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/Link.java" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/Link.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/ListSection.java" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/ListSection.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/Organization.java" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/Organization.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/OrganizationSection.java" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/OrganizationSection.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/Resume.java" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/Resume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/Section.java" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/Section.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/TextSection.java" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/TextSection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/SectionType.java" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/model/SectionType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/javaresume/webapp/storage/AbstractArrayStorage.java" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/storage/AbstractArrayStorage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/javaresume/webapp/storage/AbstractStorage.java" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/storage/AbstractStorage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/javaresume/webapp/storage/MapUuidStorage.java" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/storage/MapUuidStorage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/javaresume/webapp/util/DateUtil.java" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/util/DateUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/javaresume/webapp/util/JsonParser.java" afterPath="$PROJECT_DIR$/src/ru/javaresume/webapp/util/JsonParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/ru/javaresume/webapp/ResumeTestData.java" afterPath="$PROJECT_DIR$/test/ru/javaresume/webapp/ResumeTestData.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/AbstractStorageTest.java" afterPath="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/AbstractStorageTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/AllStorageTests.java" afterPath="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/AllStorageTests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/ArrayStorageTest.java" afterPath="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/ArrayStorageTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/ListStorageTest.java" afterPath="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/ListStorageTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/MapResumeStorageTest.java" afterPath="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/MapResumeStorageTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/MapUuidStorageTest.java" afterPath="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/MapUuidStorageTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/SortedArrayStorageTest.java" afterPath="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/SortedArrayStorageTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/file/DataStreamFileStorageTest.java" afterPath="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/file/DataStreamFileStorageTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/file/XmlFileStorageTest.java" afterPath="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/file/XmlFileStorageTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/path/DataStreamPathStorageTest.java" afterPath="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/path/DataStreamPathStorageTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/path/JsonPathStorageTest.java" afterPath="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/path/JsonPathStorageTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/path/ObjectStreamPathStorageTest.java" afterPath="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/path/ObjectStreamPathStorageTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/path/XmlPathStorageTest.java" afterPath="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/path/XmlPathStorageTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webResume.iml" afterPath="$PROJECT_DIR$/webResume.iml" />
     </list>
     <ignored path="webResume.iws" />
@@ -63,135 +82,122 @@
     <favorites_list name="webResume" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FileStorage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/storage/FileStorage.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="logging.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/logging.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="99" column="1" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webapp.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/webapp.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="postgresDb.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/postgresDb.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConnectionFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/sql/ConnectionFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#695#696#0" expanded="true" />
-                <element signature="e#743#744#0" expanded="true" />
-                <element signature="e#799#800#0" expanded="true" />
-                <element signature="e#835#836#0" expanded="true" />
+                <element signature="imports" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PathStorage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/storage/PathStorage.java">
+      <file leaf-file-name="SqlExecutor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/sql/SqlExecutor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="100" column="1" selection-start-line="100" selection-start-column="1" selection-end-line="100" selection-end-column="1" />
+            <state relative-caret-position="133">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="imports" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataStreamPathStorageTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/ru/javaresume/webapp/storage/path/DataStreamPathStorageTest.java">
+      <file leaf-file-name="SqlHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/sql/SqlHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="73" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
+            <state relative-caret-position="133">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#412#413#0" expanded="true" />
-                <element signature="e#503#504#0" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#365#366#0" expanded="false" />
+                <element signature="e#423#424#0" expanded="false" />
+                <element signature="e#462#463#0" expanded="false" />
+                <element signature="e#518#519#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JsonPathStorageTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/ru/javaresume/webapp/storage/path/JsonPathStorageTest.java">
+      <file leaf-file-name="SqlTransaction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/sql/SqlTransaction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
+            <state relative-caret-position="133">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#400#401#0" expanded="true" />
-                <element signature="e#491#492#0" expanded="true" />
+                <element signature="imports" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ObjectStreamPathStorageTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/ru/javaresume/webapp/storage/path/ObjectStreamPathStorageTest.java">
+      <file leaf-file-name="SqlStorage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/storage/SqlStorage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="1881">
+              <caret line="112" column="25" selection-start-line="112" selection-start-column="25" selection-end-line="112" selection-end-column="25" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <marker date="1472037212976" expanded="true" signature="1877:1934" ph="INSERT INTO resume... " />
+                <marker date="1472037212976" expanded="true" signature="2366:2423" ph="UPDATE resum... " />
+                <marker date="1472037212976" expanded="true" signature="4532:4593" ph="INSERT INTO contact... " />
+                <marker date="1472037212976" expanded="true" signature="5349:5390" ph="DELETE FROM " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="XmlPathStorageTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/ru/javaresume/webapp/storage/path/XmlPathStorageTest.java">
+      <file leaf-file-name="ResumeServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/web/ResumeServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#397#398#0" expanded="true" />
-                <element signature="e#487#488#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="190">
+              <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataStreamFileStorageTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/ru/javaresume/webapp/storage/file/DataStreamFileStorageTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#503#504#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Config.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Config.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/Config.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+            <state relative-caret-position="-76">
+              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="XmlFileStorageTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/ru/javaresume/webapp/storage/file/XmlFileStorageTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#397#398#0" expanded="true" />
-                <element signature="e#487#488#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AllStorageTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/ru/javaresume/webapp/storage/AllStorageTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#610#611#0" expanded="true" />
+                <element signature="e#654#655#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -206,6 +212,8 @@
         <option value="JUnit4 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -218,62 +226,63 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/web/WEB-INF/jsp/list.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/storage/SortedArrayStorage.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/storage/Storage.java" />
-        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/ResumeException.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/list.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/util/HtmlUtil.java" />
+        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/sql/ConnectionFactory.java" />
+        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/sql/SqlExecutor.java" />
+        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/sql/SqlTransaction.java" />
+        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/util/ExceptionUtil.java" />
+        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/sql/SqlHelper.java" />
         <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/ResumeStorageException.java" />
-        <option value="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/ArrayStorageTest.java" />
-        <option value="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/SortedArrayStorageTest.java" />
-        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/storage/AbstractArrayStorage.java" />
+        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/ResumeException.java" />
+        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/storage/SqlStorage.java" />
+        <option value="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/SqlStorageTest.java" />
         <option value="$PROJECT_DIR$/test/ru/javaresume/webapp/ResumeTestData.java" />
         <option value="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/AbstractStorageTest.java" />
-        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/storage/SortedArrayStorage.java" />
-        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/storage/ArrayStorage.java" />
-        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/storage/ListStorage.java" />
-        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/util/DateUtil.java" />
-        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/storage/MapResumeStorage.java" />
+        <option value="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/AllStorageTests.java" />
+        <option value="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/ArrayStorageTest.java" />
         <option value="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/ListStorageTest.java" />
-        <option value="$PROJECT_DIR$/src/main/Main.java" />
         <option value="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/MapResumeStorageTest.java" />
-        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/storage/MapUuidStorage.java" />
-        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/storage/AbstractStorage.java" />
-        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/storage/AbstractFileStorage.java" />
-        <option value="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/DataStreamFileStorageTest.java" />
         <option value="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/MapUuidStorageTest.java" />
-        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/storage/DataStreamFileStorage.java" />
-        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/storage/serializer/StreamSerializer.java" />
-        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/ResumeNotFoundException.java" />
-        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/model/Link.java" />
-        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/model/OrganizationSection.java" />
-        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/model/ListSection.java" />
-        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/model/Resume.java" />
-        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/model/Section.java" />
-        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/model/TextSection.java" />
-        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/storage/serializer/DataStreamSerializer.java" />
-        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/storage/serializer/ObjectStreamSerializer.java" />
-        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/util/ExceptionUtil.java" />
-        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/util/JsonParser.java" />
-        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/util/LocalDateAdapter.java" />
-        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/util/XmlParser.java" />
-        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/util/JsonSectionAdapter.java" />
-        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/storage/serializer/XmlStreamSerializer.java" />
-        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/storage/serializer/JsonStreamSerializer.java" />
-        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/model/Organization.java" />
-        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/Config.java" />
-        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/storage/AbstractIOStorage.java" />
-        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/storage/FileStorage.java" />
-        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/storage/PathStorage.java" />
+        <option value="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/SortedArrayStorageTest.java" />
         <option value="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/path/DataStreamPathStorageTest.java" />
         <option value="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/path/JsonPathStorageTest.java" />
         <option value="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/path/ObjectStreamPathStorageTest.java" />
         <option value="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/path/XmlPathStorageTest.java" />
         <option value="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/file/DataStreamFileStorageTest.java" />
         <option value="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/file/XmlFileStorageTest.java" />
-        <option value="$PROJECT_DIR$/test/ru/javaresume/webapp/storage/AllStorageTests.java" />
+        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/storage/AbstractArrayStorage.java" />
+        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/storage/AbstractIOStorage.java" />
+        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/storage/AbstractStorage.java" />
+        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/storage/ArrayStorage.java" />
+        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/storage/FileStorage.java" />
+        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/storage/ListStorage.java" />
+        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/storage/MapResumeStorage.java" />
+        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/storage/MapUuidStorage.java" />
+        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/storage/PathStorage.java" />
+        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/storage/SortedArrayStorage.java" />
+        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/util/DateUtil.java" />
+        <option value="$USER_HOME$/Desktop/webapp-master/webapp-master/src/ru/javawebinar/webapp/util/JsonParser.java" />
+        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/util/JsonParser.java" />
+        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/util/JsonSectionAdapter.java" />
+        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/util/LocalDateAdapter.java" />
+        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/util/XmlParser.java" />
+        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/model/ContactType.java" />
+        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/model/Link.java" />
+        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/model/ListSection.java" />
+        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/model/Organization.java" />
+        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/model/OrganizationSection.java" />
+        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/model/Resume.java" />
+        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/model/SectionType.java" />
+        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/model/TextSection.java" />
+        <option value="$PROJECT_DIR$/src/ru/javaresume/webapp/web/ResumeServlet.java" />
       </list>
     </option>
   </component>
@@ -282,6 +291,13 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -306,10 +322,13 @@
           <State>
             <id />
           </State>
+          <State>
+            <id>SQL</id>
+          </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>Android</id>
+            <id>SqlNoDataSourceInspection</id>
           </State>
         </selected-state>
       </profile-state>
@@ -340,9 +359,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -371,11 +389,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -389,67 +403,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="storage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webResume" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webResume" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="storage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="path" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webResume" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webResume" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="storage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="file" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -482,11 +436,82 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webResume" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webResume" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webResume" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webResume" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="storage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webResume" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webResume" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -495,12 +520,13 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../gson-2.7.jar!/" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/webapp-master" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/JAVA/PROJECTS/webResume/src/ru/javaresume/webapp/storage/ArrayStorage.java&#10;abstractlis&#9;PSI&#9;JAVA://java.util.AbstractList&#10;abstractcoll&#9;PSI&#9;JAVA://java.util.AbstractCollection&#10;Colle&#9;PSI&#9;JAVA://java.util.Collection" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -516,6 +542,13 @@
       <recent name="ru.javaresume.webapp.storage" />
       <recent name="ru.javaresume.webapp" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\JAVA\PROJECTS\webResume\src" />
+      <recent name="E:\JAVA\PROJECTS\webResume\test\ru\javaresume\webapp\storage\path" />
+      <recent name="E:\JAVA\PROJECTS\webResume\test\ru\javaresume\webapp\storage\file" />
+      <recent name="E:\JAVA\PROJECTS\webResume\test\ru\javaresume\webapp\storage" />
+      <recent name="E:\JAVA\PROJECTS\webResume\test\ru\javaresume\webapp" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ru.javaresume.webapp" />
     </key>
@@ -523,7 +556,7 @@
       <recent name="ru.javaresume.webapp.storage" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AllStorageTests">
+  <component name="RunManager" selected="Tomcat Server.tomcat">
     <configuration default="false" name="AbstractStorageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -640,11 +673,11 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ru.javaresume.webapp.storage" />
       <option name="MAIN_CLASS_NAME" value="ru.javaresume.webapp.storage.AllStorageTests" />
-      <option name="METHOD_NAME" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -652,6 +685,17 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -1087,12 +1131,87 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.AbstractStorageTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.SortedArrayStorageTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MapResumeStorageTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.DataStreamFileStorageTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.AllStorageTests" />
+    <configuration default="false" name="tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.0.M9" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/resume" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="webResume:Web exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_webResume" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="65312" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="webResume:Web exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.tomcat" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.AbstractStorageTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.SortedArrayStorageTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MapResumeStorageTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.DataStreamFileStorageTest" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.AllStorageTests" />
     </list>
     <recent_temporary>
       <list size="5">
@@ -1125,7 +1244,12 @@
       <workItem from="1470666832520" duration="209000" />
       <workItem from="1470667197271" duration="11303000" />
       <workItem from="1470924310672" duration="31465000" />
-      <workItem from="1471613405726" duration="12740000" />
+      <workItem from="1471613405726" duration="13530000" />
+      <workItem from="1471982234898" duration="139000" />
+      <workItem from="1471982614333" duration="8033000" />
+      <workItem from="1471993734171" duration="3472000" />
+      <workItem from="1472038722967" duration="235000" />
+      <workItem from="1472039562288" duration="1198000" />
     </task>
     <task id="LOCAL-00001" summary="init model">
       <created>1468423714518</created>
@@ -1211,23 +1335,30 @@
       <option name="project" value="LOCAL" />
       <updated>1471561557413</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="XML and JSON">
+      <created>1471907178887</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1471907178887</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AbstractStorageTest_testGetAllSorted - 2016.08.16 at 02h 12m 13s.xml">
-      <configuration name="AbstractStorageTest.testGetAllSorted" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AbstractStorageTest_testGetAllSorted - 2016.08.16 at 02h 14m 04s.xml">
-      <configuration name="AbstractStorageTest.testGetAllSorted" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AbstractStorageTest_testGetAllSorted - 2016.08.16 at 02h 16m 01s.xml">
-      <configuration name="AbstractStorageTest.testGetAllSorted" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AllStorageTests - 2016.08.22 at 16h 43m 00s.xml">
+    <history-entry file="AllStorageTests - 2016.08.23 at 01h 57m 03s.xml">
       <configuration name="AllStorageTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AllStorageTests - 2016.08.23 at 01h 57m 03s.xml">
+    <history-entry file="AllStorageTests - 2016.08.24 at 14h 18m 07s.xml">
+      <configuration name="AllStorageTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AllStorageTests - 2016.08.24 at 14h 22m 44s.xml">
+      <configuration name="AllStorageTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AllStorageTests - 2016.08.24 at 14h 30m 37s.xml">
+      <configuration name="AllStorageTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AllStorageTests - 2016.08.24 at 14h 35m 57s.xml">
       <configuration name="AllStorageTests" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ArrayStorageTest - 2016.08.16 at 02h 15m 56s.xml">
@@ -1247,7 +1378,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71608000" />
+    <option name="totallyTimeSpent" value="85475000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1260,34 +1391,37 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3309091" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965687" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284091" sideWeight="0.50666666" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3272059" sideWeight="0.50666666" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965687" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34424242" sideWeight="0.49333334" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.49555555" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33454546" sideWeight="0.49333334" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13012959" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18466523" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494382" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494382" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39515153" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.150108" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969698" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -1330,12 +1464,13 @@
     <MESSAGE value="Refactor storage &#10;Add exceptions" />
     <MESSAGE value="Add JUnit tests&#10;" />
     <MESSAGE value="Add ListStorage and MapStorage&#10;inner Position class&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add ListStorage and MapStorage&#10;inner Position class&#10;" />
+    <MESSAGE value="XML and JSON" />
+    <option name="LAST_COMMIT_MESSAGE" value="XML and JSON" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1344,230 +1479,308 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/storage/MapResumeStorage.java">
+    <entry file="file://$USER_HOME$/Desktop/webapp-master/webapp-master/src/ru/javawebinar/webapp/storage/ListStorage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-380">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#687#688#0" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
-            <element signature="e#796#797#0" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
-            <element signature="e#894#895#0" expanded="true" />
-            <element signature="e#923#924#0" expanded="true" />
-            <element signature="e#983#984#0" expanded="true" />
-            <element signature="e#1027#1028#0" expanded="true" />
-            <element signature="e#1080#1081#0" expanded="true" />
-            <element signature="e#1132#1133#0" expanded="true" />
-            <element signature="e#1174#1175#0" expanded="true" />
-            <element signature="e#1207#1208#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="319">
+          <caret line="59" column="5" selection-start-line="9" selection-start-column="4" selection-end-line="59" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/storage/ListStorage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#787#788#0" expanded="true" />
-            <element signature="e#855#856#0" expanded="true" />
-            <element signature="e#887#888#0" expanded="true" />
-            <element signature="e#944#945#0" expanded="true" />
-            <element signature="e#980#981#0" expanded="true" />
-            <element signature="e#1038#1039#0" expanded="true" />
-            <element signature="e#1081#1082#0" expanded="true" />
-            <element signature="e#1134#1135#0" expanded="true" />
-            <element signature="e#1178#1179#0" expanded="true" />
-            <element signature="e#1220#1221#0" expanded="true" />
-            <element signature="e#1254#1255#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/storage/SortedArrayStorage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+        <state relative-caret-position="319">
+          <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/storage/ArrayStorage.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/storage/MapResumeStorage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        <state relative-caret-position="336">
+          <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/storage/Storage.java">
+    <entry file="file://$USER_HOME$/Desktop/webapp-master/webapp-master/src/ru/javawebinar/webapp/storage/MapResumeStorage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/model/ContactType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ru/javaresume/webapp/storage/MapUuidStorageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="37" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/ResumeStorageException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="e#199#200#0" expanded="false" />
-            <element signature="e#229#230#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/ResumeException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/jre/lib/rt.jar!/java/lang/RuntimeException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/storage/AbstractStorage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webResume.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="11" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ru/javaresume/webapp/storage/DataStreamFileStorageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/jre/lib/rt.jar!/java/util/Map.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="195" column="21" selection-start-line="195" selection-start-column="21" selection-end-line="195" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/storage/DataStreamFileStorage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ru/javaresume/webapp/ResumeTestData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/ResumeNotFoundException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="319">
+          <caret line="60" column="5" selection-start-line="15" selection-start-column="4" selection-end-line="60" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/storage/MapUuidStorage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1175#1176#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/webapp-master/webapp-master/src/ru/javawebinar/webapp/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="319">
+          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.404/Robot.java">
+    <entry file="file://$USER_HOME$/Desktop/webapp-master/webapp-master/src/ru/javawebinar/webapp/storage/MapUuidStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="60" column="5" selection-start-line="15" selection-start-column="4" selection-end-line="60" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/storage/PathStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="99" column="5" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/webapp-master/webapp-master/src/ru/javawebinar/webapp/storage/PathStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="102" column="5" selection-start-line="20" selection-start-column="4" selection-end-line="102" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/storage/SortedArrayStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/webapp-master/webapp-master/src/ru/javawebinar/webapp/storage/SortedArrayStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="32" column="5" selection-start-line="13" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/storage/Storage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/webapp-master/webapp-master/src/ru/javawebinar/webapp/storage/Storage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/webapp-master/webapp-master/src/ru/javawebinar/webapp/util/DateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="24" column="0" selection-start-line="11" selection-start-column="4" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/util/DateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/util/ExceptionUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/util/JsonParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/webapp-master/webapp-master/src/ru/javawebinar/webapp/util/JsonParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="26" column="0" selection-start-line="15" selection-start-column="3" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/util/JsonSectionAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/webapp-master/webapp-master/src/ru/javawebinar/webapp/util/JsonSectionAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/util/LocalDateAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/webapp-master/webapp-master/src/ru/javawebinar/webapp/util/LocalDateAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/util/XmlParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/webapp-master/webapp-master/src/ru/javawebinar/webapp/util/XmlParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="47" column="5" selection-start-line="15" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/model/ContactType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/webapp-master/webapp-master/src/ru/javawebinar/webapp/model/ContactType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/model/Link.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/webapp-master/webapp-master/src/ru/javawebinar/webapp/model/Link.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="63" column="5" selection-start-line="13" selection-start-column="4" selection-end-line="63" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/model/ListSection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/model/Organization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-133">
+          <caret line="69" column="7" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/webapp-master/webapp-master/src/ru/javawebinar/webapp/model/Organization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="139" column="5" selection-start-line="24" selection-start-column="4" selection-end-line="139" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/webapp-master/webapp-master/src/ru/javawebinar/webapp/model/ListSection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="46" column="5" selection-start-line="9" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/model/OrganizationSection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/webapp-master/webapp-master/src/ru/javawebinar/webapp/model/OrganizationSection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="46" column="5" selection-start-line="9" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/model/Resume.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="118" column="5" selection-start-line="118" selection-start-column="5" selection-end-line="118" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/webapp-master/webapp-master/src/ru/javawebinar/webapp/model/Resume.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="119" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/webapp-master/webapp-master/src/ru/javawebinar/webapp/model/Section.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/model/Section.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/webapp-master/webapp-master/src/ru/javawebinar/webapp/model/SectionType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/model/SectionType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/webapp-master/webapp-master/src/ru/javawebinar/webapp/model/TextSection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="42" column="5" selection-start-line="9" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/model/TextSection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logging.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1575,369 +1788,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/model/Link.java">
+    <entry file="file://$PROJECT_DIR$/src/webapp.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
-            <element signature="e#737#738#0" expanded="true" />
-            <element signature="e#769#770#0" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
-            <element signature="e#825#826#0" expanded="true" />
-            <element signature="e#863#864#0" expanded="true" />
-            <element signature="e#893#894#0" expanded="true" />
-            <element signature="e#939#940#0" expanded="true" />
-            <element signature="e#994#995#0" expanded="true" />
-            <element signature="e#1326#1327#0" expanded="true" />
-            <element signature="e#1372#1373#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/model/OrganizationSection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="10" column="78" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="78" />
-          <folding>
-            <element signature="e#485#486#0" expanded="true" />
-            <element signature="e#535#536#0" expanded="true" />
-            <element signature="e#603#604#0" expanded="true" />
-            <element signature="e#653#654#0" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
-            <element signature="e#741#742#0" expanded="true" />
-            <element signature="e#787#788#0" expanded="true" />
-            <element signature="e#834#835#0" expanded="true" />
-            <element signature="e#1165#1166#0" expanded="true" />
-            <element signature="e#1215#1216#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/model/ListSection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="67" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
-          <folding>
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#651#652#0" expanded="true" />
-            <element signature="e#690#691#0" expanded="true" />
-            <element signature="e#989#990#0" expanded="true" />
-            <element signature="e#1031#1032#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/model/Resume.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-          <folding>
-            <element signature="e#909#910#0" expanded="true" />
-            <element signature="e#976#977#0" expanded="true" />
-            <element signature="e#1261#1262#0" expanded="true" />
-            <element signature="e#1288#1289#0" expanded="true" />
-            <element signature="e#1323#1324#0" expanded="true" />
-            <element signature="e#1354#1355#0" expanded="true" />
-            <element signature="e#1402#1403#0" expanded="true" />
-            <element signature="e#1442#1443#0" expanded="true" />
-            <element signature="e#1474#1475#0" expanded="true" />
-            <element signature="e#1502#1503#0" expanded="true" />
-            <element signature="e#1544#1545#0" expanded="true" />
-            <element signature="e#1578#1579#0" expanded="true" />
-            <element signature="e#1631#1632#0" expanded="true" />
-            <element signature="e#1662#1663#0" expanded="true" />
-            <element signature="e#1716#1717#0" expanded="true" />
-            <element signature="e#1747#1748#0" expanded="true" />
-            <element signature="e#1809#1810#0" expanded="true" />
-            <element signature="e#1850#1851#0" expanded="true" />
-            <element signature="e#1915#1916#0" expanded="true" />
-            <element signature="e#1958#1959#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/model/Section.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/model/SectionType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/model/TextSection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#858#859#0" expanded="true" />
-            <element signature="e#902#903#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/storage/serializer/StreamSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/storage/serializer/DataStreamSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1992">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/storage/serializer/ObjectStreamSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/util/ExceptionUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/util/LocalDateAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/util/XmlParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/util/JsonParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#584#585#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/util/JsonSectionAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/storage/serializer/XmlStreamSerializer.java">
+    <entry file="file://$PROJECT_DIR$/postgresDb.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/storage/serializer/JsonStreamSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/model/Organization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-681">
-          <caret line="75" column="38" selection-start-line="75" selection-start-column="38" selection-end-line="75" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/storage/AbstractArrayStorage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/storage/AbstractIOStorage.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/sql/ConnectionFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        <state relative-caret-position="133">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/storage/FileStorage.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/sql/SqlExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="99" column="1" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
+        <state relative-caret-position="133">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#695#696#0" expanded="true" />
-            <element signature="e#743#744#0" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/storage/PathStorage.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/sql/SqlHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="100" column="1" selection-start-line="100" selection-start-column="1" selection-end-line="100" selection-end-column="1" />
+        <state relative-caret-position="133">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#365#366#0" expanded="false" />
+            <element signature="e#423#424#0" expanded="false" />
+            <element signature="e#462#463#0" expanded="false" />
+            <element signature="e#518#519#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/ru/javaresume/webapp/storage/path/DataStreamPathStorageTest.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/sql/SqlTransaction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="73" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
+        <state relative-caret-position="133">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/ru/javaresume/webapp/storage/path/JsonPathStorageTest.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/storage/SqlStorage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
+        <state relative-caret-position="1881">
+          <caret line="112" column="25" selection-start-line="112" selection-start-column="25" selection-end-line="112" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#491#492#0" expanded="true" />
+            <marker date="1472037212976" expanded="true" signature="1877:1934" ph="INSERT INTO resume... " />
+            <marker date="1472037212976" expanded="true" signature="2366:2423" ph="UPDATE resum... " />
+            <marker date="1472037212976" expanded="true" signature="4532:4593" ph="INSERT INTO contact... " />
+            <marker date="1472037212976" expanded="true" signature="5349:5390" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/ru/javaresume/webapp/storage/path/XmlPathStorageTest.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/web/ResumeServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ru/javaresume/webapp/storage/file/XmlFileStorageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ru/javaresume/webapp/storage/AllStorageTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ru/javaresume/webapp/storage/file/DataStreamFileStorageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="190">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/javaresume/webapp/Config.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+        <state relative-caret-position="-76">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ru/javaresume/webapp/storage/path/ObjectStreamPathStorageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1948,10 +1886,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>webResume:Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1959,7 +1899,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Web (webResume)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -2018,6 +1958,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Java EE 6-Java EE 6</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
